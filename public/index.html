@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <title>Chivalàpp</title>
+
+  <meta name="theme-color" content="#222326">
+  <link rel="manifest" href="/manifest.json">
+
+  <!-- fonts -->
+  <link type="text/css" rel="stylesheet" href="fonts/roboto/roboto.css">
+  <link type="text/css" rel="stylesheet" href="fonts/material-icons/icon.css">
+  
+  <link type="text/css" rel="stylesheet" href="css/index.css">
+  <link type="text/css" rel="stylesheet" href="css/keyframes.css">
+  <link type="text/css" rel="stylesheet" href="css/login.css">
+</head>
+<body>
+
+  <header>
+    <div id="page-name" ><img src='/img/icons/icon-256x256.png'>Chivalàpp</div>
+  </header>
+
+  <main></main>
+
+  <footer id="bottom-menu">
+    <div id="id-menu-home" class="menu-item" data-page="Agenda"><i class="material-icons">today</i></div>
+    <div class="menu-item" data-page="Ricerca"><i class="material-icons">search</i></div>
+    <div class="menu-item" data-page="Home">
+      <div class="circle">
+        <div class="circle">
+          <i class="material-icons">home</i>
+        </div>
+      </div>
+    </div>
+    <div class="menu-item" data-page="Aggiungi"><i class="material-icons">add</i></div>
+    <div class="menu-item" data-page="Profilo"><i class="material-icons">person_outline</i></div>
+  </footer>
+
+  <script>
+    const app = {
+      apiUrl: 'https://europe-west1-hacklocal.cloudfunctions.net/app',
+      //apiUrl: 'http://localhost:5001/hacklocal/us-central1/app',
+    }
+  </script>
+  <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+  <script type="module" src="js/firebase-setup.js"></script>
+  <script type="module" src="js/index.js"></script>
+
+</body>
+</html>

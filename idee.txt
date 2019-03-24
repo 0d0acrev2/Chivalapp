@@ -1,0 +1,59 @@
+Utenti:
+- User
+
+Compenso Ospite
+
+Ogni User può creare gli eventi
+
+Lista spazi pubblici "aperti"
+Cronologia eventi spazi pubblici
+Eventi
+Artisti della zona
+quindi calendario eventi
+
+Un evento:
+- Attività dell'evento --> 
+Pranzo, Cena |
+Esposizione, Racconto Poesie, Concerto Acustico |
+Laboratorio |
+Dibattito |
+
+- Orario
+- Luogo (Spazio Pubblico Aperto)
+- Materiali Necessari
+- Capienza
+
+Materiali necessari sono divisi per le attività all'interno dell'evento
+
+
+__________________________________________________________________________________________
+Creazione Evento possibile per ogni utente
+--- Definire la creazione e la collaborazione ta utenti
+Creazione Account
+Aggiunta Account in cui sei Ospite
+Calendario
+Aggiunta Luogo  all'evento
+
+Visualizzazione Evento per ogni utente
+-- Non si vede chi partecipa?
+
+________________________________________________________________________________________________
+Schermate:
+Home Page
+Creazione Evento
+Luogo
+Creazione Utente
+Pagina Evento ---> Punto Chiave
+
+_________________________________________________________________________________________________
+Un evento:
+- Attività dell'evento --> 
+   Pranzo, Cena |
+   Esposizione, Racconto Poesie, Concerto Acustico |
+   Laboratorio |
+   Dibattito |
+
+- Orario
+- Luogo (Spazio Pubblico Aperto)
+- Materiali Necessari
+- Capienza

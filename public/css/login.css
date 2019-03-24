@@ -1,0 +1,60 @@
+
+.signup-field,
+.login-field {
+	border: 0;
+	border-bottom: solid 1px #7e57c2;
+	outline: 0;
+	cursor: pointer;
+	width: 250px;
+	height: 57px;
+	padding-left: 5px;
+	color: #eee;
+	font-size: 14px;
+	font-family: Roboto-Regular;
+  display: block;
+  margin: auto;
+  background-color: #121212;
+}
+
+#form-signup [type="submit"],
+#form-login [type="submit"],
+.btn-logout {
+	display: block;
+}
+
+.btn {
+	background-color: #7e57c2;
+	padding: 10px;
+	color: #eee;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin: 24px auto;
+	border: 0px;
+  outline: none;
+}
+
+.btn i {
+	margin-left: 12px;
+	transform: translateY(6px);
+}
+
+#sign-up-page {
+  color: #7e57c2;
+  display: block;
+  width: 250px;
+  margin: auto;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.social-btns {
+  display: flex;
+}
+
+.social-btn-login {
+  display: block;
+  margin: auto;
+  max-width: 170px;
+  border-radius: 5px;
+  flex: 0 0 48px;
+}
